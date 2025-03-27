@@ -9,7 +9,6 @@ layer1 = Layer_Dense(sample_size=4, neurones_number=5)
 layer2 = Layer_Dense(sample_size=5, neurones_number=2)
 
 layer1.forward(X)
-print(layer1.weights)
 # print(layer1.output)
 layer2.forward(layer1.output)
 # print(layer2.output)
